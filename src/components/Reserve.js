@@ -15,6 +15,11 @@ export default ({dispatch, reservationList}) =>{
       dataIndex: 'age',
       key: 'age'
     }];
+  //test code
+  //
+  //
+  //
+  //
 
   return(
     <div className={styles['normal']}>
