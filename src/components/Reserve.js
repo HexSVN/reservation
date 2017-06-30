@@ -8,6 +8,7 @@ export default ({dispath}) =>{
     <div>
       <h1>This is Reserve component</h1>
       <div id="xiaohuTable">A table from xiaohu</div>
+      <div id="abaoTable">A table from abao</div>
       <hr/>
     </div>
   );
