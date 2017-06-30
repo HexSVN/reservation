@@ -7,6 +7,7 @@ export default ({dispath}) =>{
   return(
     <div>
       <h1>This is Reserve component</h1>
+      <div id="xiaohuTable">A table from xiaohu</div>
       <hr/>
     </div>
   );
