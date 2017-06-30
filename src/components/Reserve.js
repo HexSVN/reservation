@@ -15,6 +15,8 @@ export default ({dispatch, reservationList}) =>{
       dataIndex: 'age',
       key: 'age'
     }];
+  //add unused code to testing
+  const a = 1;
   return(
     <div className={styles['normal']}>
       <h1>This is Reserve component</h1>
