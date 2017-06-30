@@ -4,10 +4,11 @@
 import React from 'react';
 import {connect} from 'dva';
 import ReserveComponent from '../components/Reserve';
-const Reserve = () =>{
+
+const Reserve = ({dispatch, reservationList}) =>{
   return(
-    <ReserveComponent/>
+    <ReserveComponent dispatch={dispatch} reservationList={reservationList}/>
   );
 }
 
-export default connect((state)=>state)(Reserve);
+export default connect((state)=>{return {...state,reservationList:state.reserve.reservationList}})(Reserve);
